@@ -8,7 +8,7 @@ namespace Clean.Core.Entities
 {
     public class Plan
     {
-        public int IdPlan { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Price { get; set; }
         public List<User> Users { get; set; }
